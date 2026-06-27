@@ -5,7 +5,7 @@ import banner from "../../assets/hero.png";
 
 const HomeOutdoor = () => {
   return (
-    <section className="max-w-7xl mx-auto mt-8">
+    <section className="container section mx-auto mt-8">
 
       <div className="bg-white rounded-xl overflow-hidden border">
 

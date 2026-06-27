@@ -3,7 +3,7 @@ import DealCard from "./DealCard";
 
 const Deals = () => {
   return (
-    <section className="max-w-7xl mx-auto mt-8">
+    <section className="container section mx-auto mt-8">
 
       <div className="bg-white rounded-xl border">
 

@@ -1,15 +1,32 @@
+import {
+  FiUser,
+  FiMessageSquare,
+  FiHeart,
+  FiShoppingCart,
+} from "react-icons/fi";
 const Header = () => {
+
   return (
     <header className="bg-white border-b">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="container h-[86px] flex items-center justify-between gap-8">
 
         {/* Logo */}
-        <div className="text-2xl font-bold text-blue-600">
-          Brand
-        </div>
+       <div className="flex items-center gap-2 cursor-pointer">
+
+  <div className="w-11 h-11 rounded-lg bg-[#0D6EFD] flex items-center justify-center text-white text-2xl font-bold">
+    B
+  </div>
+
+  <div>
+    <h2 className="text-2xl font-bold text-[#0D6EFD] leading-none">
+      Brand
+    </h2>
+  </div>
+
+</div>
 
         {/* Search */}
-        <div className="flex flex-1 max-w-xl mx-8">
+        <div className="hidden md:flex flex-1 max-w-[665px] mx-4">
 
           <input
             type="text"

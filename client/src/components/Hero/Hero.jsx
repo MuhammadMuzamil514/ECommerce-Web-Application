@@ -4,7 +4,7 @@ import HeroRight from "./HeroRight";
 
 const Hero = () => {
   return (
-    <section className="max-w-7xl mx-auto mt-6">
+    <section className="container mx-auto px-4 py-5">
 
       <div className="grid grid-cols-12 gap-5">
 

@@ -1,6 +1,6 @@
 const SupplierBanner = () => {
   return (
-    <section className="max-w-7xl mx-auto mt-8 px-4">
+    <section className="container section mx-auto mt-8 px-4">
 
       <div
         className="rounded-xl overflow-hidden bg-cover bg-center"
