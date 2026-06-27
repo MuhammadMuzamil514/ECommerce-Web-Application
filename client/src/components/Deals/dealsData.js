@@ -1,38 +1,38 @@
-import phone from "../../assets/images/products/phone.png";
-import watch from "../../assets/images/products/watch.png";
-import laptop from "../../assets/images/products/laptop.png";
-import camera from "../../assets/images/products/camera.png";
-import headphone from "../../assets/images/products/headphone.png";
+import tech1 from "../../assets/images/tech/1.png";
+import tech2 from "../../assets/images/tech/2.png";
+import tech3 from "../../assets/images/tech/3.png";
+import tech4 from "../../assets/images/tech/4.png";
+import tech5 from "../../assets/images/tech/5.png";
 
 export const deals = [
   {
     id: 1,
-    image: phone,
-    title: "Smart Phones",
+    title: "Smart Watch",
+    image: tech1,
     discount: "-25%",
   },
   {
     id: 2,
-    image: watch,
-    title: "Smart Watches",
+    title: "Laptop",
+    image: tech2,
     discount: "-15%",
   },
   {
     id: 3,
-    image: laptop,
-    title: "Laptops",
+    title: "Camera",
+    image: tech3,
     discount: "-40%",
   },
   {
     id: 4,
-    image: camera,
-    title: "Cameras",
-    discount: "-20%",
+    title: "Headphones",
+    image: tech4,
+    discount: "-25%",
   },
   {
     id: 5,
-    image: headphone,
-    title: "Headphones",
+    title: "Smart Phone",
+    image: tech5,
     discount: "-30%",
   },
 ];

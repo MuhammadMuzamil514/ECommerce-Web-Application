@@ -1,73 +1,74 @@
-import phone from "../../assets/images/products/phone.png";
-import tshirt from "../../assets/images/products/tshirt.png";
-import jacket from "../../assets/images/products/jacket.png";
-import wallet from "../../assets/images/products/wallet.png";
-import bag from "../../assets/images/products/bag.png";
-import camera from "../../assets/images/products/camera.png";
-import headphone from "../../assets/images/products/headphone.png";
-import watch from "../../assets/images/products/watch.png";
-import laptop from "../../assets/images/products/laptop.png";
-import shoes from "../../assets/images/products/shoes.png";
+import cloth1 from "../../assets/images/cloth/1.png";
+import cloth2 from "../../assets/images/cloth/2.png";
+import cloth3 from "../../assets/images/cloth/3.png";
+import cloth4 from "../../assets/images/cloth/4.png";
+import cloth5 from "../../assets/images/cloth/5.png";
+import cloth6 from "../../assets/images/cloth/6.png";
+
+import book1 from "../../assets/images/book/1.png";
+import book2 from "../../assets/images/book/2.png";
+import book3 from "../../assets/images/book/3.png";
+import book4 from "../../assets/images/book/4.png";
 
 export const recommendedProducts = [
   {
     id: 1,
-    title: "Smart Phone",
-    price: "$99.50",
-    image: phone,
+    title: "Men Blazer Set",
+    price: "$10.30",
+    image: cloth1,
   },
   {
     id: 2,
-    title: "Men T-Shirt",
-    price: "$15.00",
-    image: tshirt,
+    title: "Blue Shirt",
+    price: "$10.30",
+    image: cloth2,
   },
   {
     id: 3,
-    title: "Winter Jacket",
-    price: "$42.00",
-    image: jacket,
+    title: "Brown Jacket",
+    price: "$10.30",
+    image: cloth3,
   },
   {
     id: 4,
-    title: "Leather Wallet",
-    price: "$18.99",
-    image: wallet,
+    title: "Blue Backpack",
+    price: "$10.30",
+    image: cloth4,
   },
   {
     id: 5,
-    title: "Travel Bag",
-    price: "$33.00",
-    image: bag,
+    title: "Blue Wallet",
+    price: "$10.30",
+    image: book1,
   },
   {
     id: 6,
-    title: "Digital Camera",
-    price: "$199.00",
-    image: camera,
+    title: "Clay Pot",
+    price: "$10.30",
+    image: book2,
   },
   {
     id: 7,
-    title: "Wireless Headphone",
-    price: "$65.00",
-    image: headphone,
+    title: "Winter Coat",
+    price: "$10.30",
+    image: cloth5,
   },
   {
     id: 8,
-    title: "Smart Watch",
-    price: "$120.00",
-    image: watch,
+    title: "Leather Bag",
+    price: "$10.30",
+    image: cloth6,
   },
   {
     id: 9,
-    title: "Gaming Laptop",
-    price: "$899.00",
-    image: laptop,
+    title: "Home Item",
+    price: "$10.30",
+    image: book3,
   },
   {
     id: 10,
-    title: "Running Shoes",
-    price: "$55.00",
-    image: shoes,
+    title: "Kitchen Item",
+    price: "$10.30",
+    image: book4,
   },
 ];

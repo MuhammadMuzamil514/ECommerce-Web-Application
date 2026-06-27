@@ -1,7 +1,7 @@
 import OutdoorCard from "./OutdoorCard";
 import { outdoorProducts } from "./outdoorData";
 
-import banner from "../../assets/images/home-outdoor-banner.jpg";
+import banner from "../../assets/hero.png";
 
 const HomeOutdoor = () => {
   return (

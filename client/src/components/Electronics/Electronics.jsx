@@ -1,4 +1,4 @@
-import banner from "../../assets/images/electronics-banner.jpg";
+import banner from "../../assets/hero.png";
 
 import ElectronicCard from "./ElectronicCard";
 import { electronics } from "./electronicsData";
